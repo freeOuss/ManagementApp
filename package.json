@@ -1,0 +1,25 @@
+{
+  "name": "be_nice",
+  "version": "1.0.0",
+  "description": "Latest attempt of fullstack react",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "author": "Oussama FRIJI",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cloudinary": "^1.11.0",
+    "concurrently": "^3.6.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mysql": "^2.15.0",
+    "nodemailer": "^4.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
